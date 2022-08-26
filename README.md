@@ -8,9 +8,19 @@
 1. Установить сайт и БД. Исходники здесь https://github.com/devmanorg/e-diary
 2. Скачать скрипт в корневой каталог проекта
 
+## Как использовать
+
 ### Запуск sell
 ```python
   python manage.py shell
+```
+
+### Импортировать скрипт
+```
+from script import get_schoolkid
+from script import fix_marks
+from script import remove_chastisements
+from script import create_commendation
 ```
 
 ### Найти свою учетную запись
