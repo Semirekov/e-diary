@@ -6,7 +6,7 @@
 
 ### Как установить
 1. Установить сайт и БД. Исходники здесь https://github.com/devmanorg/e-diary
-2. Скачать скрипт в корневой каталог проекта
+2. Скачать репозиторий в корневой каталог проекта
 
 ## Как использовать
 
@@ -15,7 +15,7 @@
   python manage.py shell
 ```
 
-### Импортировать скрипт
+### Импортировать функции
 ```
 from script import fix_marks
 from script import remove_chastisements
@@ -24,7 +24,7 @@ from script import get_schoolkid
 
 ```
 
-### Найти свою учетную запись
+### Найти свою учетную запись, например
 ```python
   schoolkid = get_schoolkid('Фролов Иван')
 ```
@@ -43,8 +43,8 @@ from script import get_schoolkid
 ### Добавить похвалу
 
 ```python
-#suject_title – название предмета
-#full_name – фамилия имя
+#suject_title – фрагмент названия предмета в кавычках
+#full_name – фамилия имя в кавычках
 
-create_commendation(full_name, suject_title)
+create_commendation('Фролов Иван', 'Муз')
 ```
