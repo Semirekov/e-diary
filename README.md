@@ -17,10 +17,11 @@
 
 ### Импортировать скрипт
 ```
-from script import get_schoolkid
 from script import fix_marks
 from script import remove_chastisements
 from script import create_commendation
+from script import get_schoolkid
+
 ```
 
 ### Найти свою учетную запись
